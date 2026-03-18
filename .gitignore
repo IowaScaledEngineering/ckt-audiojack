@@ -1,0 +1,8 @@
+*~
+*.wav
+src/build
+run.sh
+
+# Kicad stuff
+fp-info-cache
+kicad/*/*-backups
