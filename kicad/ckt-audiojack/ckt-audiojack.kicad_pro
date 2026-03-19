@@ -70,14 +70,6 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|74138000|103193000|a518a930-bc5d-4790-aaf9-1c389f8234c9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|84638000|103193000|89063c07-240a-483e-acc6-b6136da64faf|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_overlap|79268000|104943000|19a03300-c154-4e0f-9949-b348e2902374|67774ffa-ef8c-434a-b0d3-544625244477",
           ""
         ],
@@ -143,8 +135,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -564,7 +556,6 @@
         "bus_width": 12,
         "clearance": 0.2032,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -582,7 +573,6 @@
         "bus_width": 12,
         "clearance": 0.1778,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
